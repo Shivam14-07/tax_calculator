@@ -25,21 +25,21 @@
     <div class="row">
       <label for="EnterIncome" class="col-4 col-form-label font-weight-bold font-italic">Enter Your Expected income for
         year</label>
-      <div class="col-8 input-group mb-3">
+      <div class="col-5 input-group mb-3">
         <div class="input-group-prepend">
           <span class="input-group-text" >₹</span>
         </div>
         <input type="number" class="form-control" id="income" aria-describedby="basic-addon1">
       </div>
-
-      <button type="button" class="btn btn-primary" onclick="calculateTax()">Calculate</button>
+      <div class="col-2"> <button type="button" class="btn btn-primary" onclick="calculateTax()">Calculate</button> </div>
+     
     </div>
-    <br><br>
-    <img src="/tax.png" class="img-rounded" alt="Cinque Terre" width="700" height="236">
+    <img src="/tax.png" class="img-rounded" alt="Cinque Terre" width="700" height="236" style="margin: 30px 0;">
+
     <!-- style="display:none"  -->
     <div class="row" >
-      <label for="taxDisplay" class="col-4 col-form-label font-weight-bold font-italic">Expected income tax </label>
-      <div class="col-8 input-group mb-3">
+      <label for="taxDisplay" class="col-4 col-form-label font-weight-bold font-italic">Expected income tax as per above chart!</label>
+      <div class="col-5 input-group mb-3">
         <div class="input-group-prepend">
           <span class="input-group-text">₹</span>
         </div>
